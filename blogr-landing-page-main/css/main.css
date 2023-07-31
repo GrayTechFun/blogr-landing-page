@@ -1,0 +1,525 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 37.5em;
+  margin: 0 auto;
+}
+
+.heading {
+  background-color: hsl(355, 100%, 74%);
+  margin-bottom: 5em;
+  background-image: url(../images/bg-pattern-intro-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 10em;
+  background-size: 20em;
+  border-radius: 0 0 0 8em;
+  overflow: visible;
+}
+
+.logo {
+  width: 7em;
+  margin-bottom: 5em;
+}
+
+nav {
+  display: none;
+}
+
+.menu {
+  padding: 3em 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin: 0 3em;
+}
+
+.heading p {
+  text-align: center;
+  color: white;
+  margin: 0 5em;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  font-size: 1.5rem;
+}
+
+.trial {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.trial button {
+  width: 8em;
+  height: 3em;
+  border-radius: 2em;
+  border: 1px solid white;
+  margin-bottom: 8em;
+}
+
+.start {
+  background-color: white;
+  color: hsl(355, 100%, 74%);
+}
+
+.learn {
+  background-color: hsl(355, 100%, 74%);
+  color: white;
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.designed {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.right {
+  height: 40em;
+  background-image: url(../images/illustration-editor-mobile.svg);
+  background-size: 40em;
+  background-position: 10em;
+  background-position-x: -1em;
+  background-repeat: no-repeat;
+}
+
+.left {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+.semi-title {
+  margin: 0 5em;
+  margin-bottom: 1em;
+}
+
+.introduce {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.para {
+  color: gray;
+  font-size: 1.3rem;
+  margin: 0 6em;
+}
+
+.robust {
+  margin-bottom: 8em;
+}
+
+.rightcol {
+  background-color: hsl(237, 17%, 21%);
+  color: white;
+  height: 50em;
+  background-image: url(../images/bg-pattern-circles.svg);
+  background-size: 40em;
+  background-position-y: -13em;
+  background-position-x: 4em;
+  background-repeat: no-repeat;
+  border-radius: 0 9em 0 8em;
+}
+
+.rightcol h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 7em;
+  margin-bottom: 1em;
+}
+
+.rightcol p {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 6em;
+}
+
+.leftcol img {
+  width: 30em;
+  margin-bottom: -19em;
+  margin-left: 5em;
+}
+
+.leftt {
+  height: 35em;
+  background-image: url(../images/illustration-laptop-mobile.svg);
+  background-repeat: no-repeat;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  background-position-x: -6em;
+}
+
+.free {
+  text-align: center;
+  margin: 0 2em;
+  margin-bottom: 3em;
+}
+
+.powerful {
+  text-align: center;
+}
+
+.rightt h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+
+.rightt p {
+  font-size: 1.5rem;
+  margin: 0 3em;
+}
+
+footer {
+  height: 50em;
+  background-color: hsl(237, 17%, 21%);
+  border-radius: 0 10em 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+footer img {
+  margin-left: 1em;
+}
+
+footer p {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+footer a {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.mobile-bar {
+  width: 35em;
+  height: 40em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  z-index: 2;
+  padding: 3em 0;
+  margin: 0 auto;
+  margin-left: 1em;
+  margin-top: -327em;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1em;
+  display: none;
+}
+
+.mobile-bar a {
+  font-size: 1.5rem;
+}
+
+.close {
+  display: none;
+}
+
+.drop-down-connect {
+  height: 20em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  gap: -5em;
+  margin: 0 auto;
+  background-color: gainsboro;
+  justify-content: space-around;
+  border-radius: 1em;
+  color: gray;
+}
+
+.mobile-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.mobile-user a {
+  font-size: 1.8rem;
+}
+
+.mobile-user button {
+  width: 8em;
+  height: 3em;
+  border-radius: 2em;
+  border: 1px solid white;
+  margin-bottom: 8em;
+  margin: 0 auto;
+  background-color: hsl(355, 100%, 74%);
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    width: auto;
+    max-width: 900px;
+  }
+
+  .menuicon {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    display: flex;
+    margin-left: -25em;
+    justify-content: space-between;
+    gap: 2em;
+  }
+
+  .drop-down-connect {
+    padding: 1em 0;
+    padding-left: 1.5em;
+    color: black;
+    width: 10em;
+    height: 10em;
+    margin-top: 2em;
+    margin-left: -9em;
+  }
+
+  .logo {
+    width: 7em;
+    height: 3em;
+  }
+
+  .user {
+    margin-right: -35em;
+    margin-left: 30em;
+  }
+
+  .user {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    color: white;
+  }
+
+  .user a {
+    font-size: 1.5rem;
+    margin-top: 0.8em;
+  }
+
+  .user button {
+    width: 7em;
+    height: 3em;
+    border-radius: 2em;
+    border: 1px solid white;
+    margin-bottom: 8em;
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    margin-right: 3em;
+  }
+
+  .Products {
+    color: white;
+  }
+
+  .Company {
+    color: white;
+  }
+
+  .drop-down {
+    color: white;
+  }
+
+  .title {
+    font-size: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .title1 {
+    font-size: 3rem;
+  }
+
+  .designed {
+    flex-direction: row;
+  }
+
+  .right {
+    width: 100em;
+    height: 40em;
+    margin-left: 1em;
+    background-image: url(../images/illustration-editor-desktop.svg);
+    background-size: 50em;
+    background-position: -5em;
+    background-position-y: -5em;
+  }
+
+  .left {
+    margin-top: 5em;
+    text-align: start;
+  }
+
+  .semi-title {
+    margin-left: 4.3em;
+  }
+
+  .introduce {
+    margin-bottom: 5em;
+  }
+
+  .phone {
+    height: 30em;
+    display: flex;
+    margin-top: 5em;
+    border-radius: 0 10em 0 10em;
+    background-color: hsl(237, 17%, 21%);
+  }
+
+  .leftcol img {
+    width: 40em;
+    margin-top: -5em;
+  }
+
+  .rightcol {
+    background-image: none;
+    height: 10em;
+    text-align: start;
+    margin-top: -10em;
+    padding-bottom: 5em;
+    background-color: white;
+  }
+
+  .laptop {
+    display: flex;
+    height: 60em;
+    margin-top: 5em;
+  }
+
+  .leftt {
+    width: 120em;
+    height: 50em;
+    background-image: url(../images/illustration-laptop-desktop.svg);
+    background-size: 50em;
+    background-position-x: -14em;
+    margin-right: 10em;
+  }
+
+  .free {
+    margin-top: 13em;
+    text-align: start;
+    margin-bottom: 5em;
+  }
+
+  .free p {
+    margin-left: 0em;
+  }
+
+  .powerful {
+    text-align: start;
+    margin-left: 2em;
+  }
+
+  .powerful p {
+    margin-left: 0em;
+  }
+
+  footer {
+    height: 25em;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5em;
+  }
+
+  footer img {
+    margin-top: -13em;
+  }
+
+  .company {
+    margin-top: -2em;
+  }
+
+  .connect {
+    margin-top: -3em;
+    margin-right: 10em;
+  }
+
+  .product {
+    gap: 1.3em;
+  }
+  .company {
+    gap: 1.3em;
+  }
+  .connect {
+    gap: 1.3em;
+  }
+
+  .drop-down-connect {
+    display: none;
+  }
+}
+
+nav a:hover {
+  cursor: pointer;
+}
+
+.signup:hover {
+  cursor: pointer;
+  background-color: pink;
+}
+
+.start:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: white;
+}
+
+.learn:hover {
+  cursor: pointer;
+  color: hsl(355, 100%, 74%);
+  background-color: white;
+}
+
+footer p:hover {
+  cursor: pointer;
+  text-decoration: underline 1px solid white;
+}
